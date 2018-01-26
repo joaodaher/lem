@@ -1,0 +1,7 @@
+[run]
+branch = True
+source = lem
+omit = */tests/*, */wsgi.py, */manage.py, */settings/*
+
+[html]
+directory = html-coverage

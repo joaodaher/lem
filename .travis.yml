@@ -1,0 +1,27 @@
+language: python
+
+python:
+  - "3.6"
+
+services:
+  - postgresql
+
+env:
+  global:
+    - DEBUG=0
+
+install:
+  - make install
+
+before_script:
+  - psql -c "CREATE DATABASE test_lem;" -U postgres
+
+script:
+  - make lint
+  - make coverage
+
+cache:
+  - pip
+
+after_success:
+  - codecov
