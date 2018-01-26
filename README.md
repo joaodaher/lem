@@ -1,7 +1,7 @@
 [![Build Status](https://travis-ci.org/joaodaher/lem.svg?branch=master)](https://travis-ci.org/joaodaher/lem)
 [![codecov](https://codecov.io/gh/joaodaher/lem/branch/master/graph/badge.svg)](https://codecov.io/gh/joaodaher/lem)
 [![python](https://img.shields.io/badge/python-3.6-blue.svg)](https://www.python.org/)
-[![django](https://img.shields.io/badge/django-2-green.svg)](https://www.djangoproject.com/)
+[![django](https://img.shields.io/badge/django-2.0-green.svg)](https://www.djangoproject.com/)
 # Luiza Employee Manager
 Service for managing company's employees.
 
@@ -10,7 +10,7 @@ Microservice-based RestFul API for programmatic integrations and Admin for user-
 
 ## Documentation
 
-Visit the [API Docs]() for more information about each endpoint available.
+Visit the [API Docs](https://documenter.getpostman.com/view/1255297/luiza-employee-manager/7TNfX9o) for more information about each endpoint available.
 
 
 # Developing Environment
@@ -100,7 +100,7 @@ Production monitoring tool is, by default, NewRelic.
 Production server is run, by default, with Gunicorn.
 
    - Set server binding port with: `PORT=<my-port>`
-   - Run and/or customise using Procfile.
+   - Run and/or customise using Procfile command.
    
    
 ## Healthcheck
