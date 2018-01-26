@@ -1,0 +1,4 @@
+-r common.txt
+flake8==3.5.0
+mock==2.0.0
+codecov==2.0.14
